@@ -9,9 +9,21 @@
 </head>
 
 <body>
-    <h1>It's a
-        <%= kindOfDay %>
-    </h1>
+
+    <form action="/" method="post">
+        <h1>
+            <%= kindOfDay %>
+        </h1>
+
+        <ul>
+            <li>Buy Food</li>
+            <li>Cook Food</li>
+            <li>Eat Food</li>
+        </ul>
+        <input type="text" placeholder="Enter the next thing to do" name="toDo">
+        <button type="submit" name="submit">Submit</button>
+    </form>
+
 </body>
 
 </html>
