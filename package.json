@@ -1,0 +1,22 @@
+{
+  "name": "8---to-do-list-1",
+  "version": "1.0.0",
+  "description": "To Do List",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boundy99/To-Do-List-Version-1.git"
+  },
+  "author": "Abdoulaye Boundy Djikine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boundy99/To-Do-List-Version-1/issues"
+  },
+  "homepage": "https://github.com/boundy99/To-Do-List-Version-1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
